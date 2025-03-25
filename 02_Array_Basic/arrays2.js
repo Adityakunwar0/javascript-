@@ -1,5 +1,5 @@
-// const marvel_heroes = ["thor", "Ironman", "Spiderman"];
-// const dc_heroes = ["Superman", "flash", "batman"];
+const marvel_heroes = ["thor", "Ironman", "Spiderman"];
+const dc_heroes = ["Superman", "flash", "batman"];
 
 // marvel_heroes.push(dc_heroes);
 
@@ -8,10 +8,12 @@
 // console.log(marvel_heroes[3][1]); // flash
 
 // const allHeroes = marvel_heroes.concat(dc_heroes);
-// console.log(allHeroes); //  [ 'Superman', 'flash', 'batman' ],'Superman','flash','batman']
+// console.log(allHeroes); //  [ 'thor', 'Ironman', 'Spiderman', 'Superman', 'flash', 'batman' ]
 
-// //spread
-// console.log = [...marvel_heroes, ...dc_heroes] //  [ 'Superman', 'flash', 'batman' ],'Superman','flash','batman']
+// spread
+// const all_new_heros  = [...marvel_heroes, ...dc_heroes]  
+// console.log(all_new_heros); // [ 'thor', 'Ironman', 'Spiderman', 'Superman', 'flash', 'batman' ]
+
 
 // const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
 
@@ -20,7 +22,7 @@
 
 console.log(Array.isArray("Hitesh")) // false because it is not an array
 console.log(Array.from("Hitesh")) // [ 'H', 'i', 't', 'e', 's', 'h' ]
-console.log(Array.from({name: "hitesh"})) // interesting []
+console.log(Array.from({name: "hitesh"})) // interesting o/p: []
 
 let score1 = 100
 let score2 = 200
