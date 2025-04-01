@@ -30,14 +30,14 @@ const myArray = [0,1,2,3,4,5,6]
 // console.log(typeof newArr); // string
 
 //slice , splice
-console.log("A ", myArray);
+console.log("A ", myArray); // A  [ 0, 1, 2, 3, 4, 5, 6]
 
-const myn1 = myArray.slice(1, 3)
+const myn1 = myArray.slice(1, 3); // [ 1, 2 ]
 
 console.log(myn1);
-console.log("B ", myArray);
+console.log("B ", myArray); //B  [ 0, 1, 2, 3, 4, 5, 6]
 
 
-const myn2 = myArray.splice(1, 3)
-console.log("C ", myArray);
-console.log(myn2);
+const myn2 = myArray.splice(1, 3) 
+console.log("C ", myArray); //C  [ 0, 4, 5, 6 ]
+console.log(myn2); // [ 1, 2, 3 ]
