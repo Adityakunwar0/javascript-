@@ -10,5 +10,5 @@ let isLoggedIn = false; // boolean
 //undefined type of undefined =>
 //symbol => used in unique case
 
-
+// alert (3+3) we are using nodejs, not browser
 
