@@ -12,3 +12,5 @@ let isLoggedIn = false; // boolean
 
 // alert (3+3) we are using nodejs, not browser
 
+console.log("aditya"); console.log(3+3);
+// we should not write like these because code readability should be high
