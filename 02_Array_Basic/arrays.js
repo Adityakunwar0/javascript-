@@ -26,6 +26,7 @@ const myArray = [0,1,2,3,4,5,6]
 
 // const newArr = myArray.join(); // adds all the elements of an array into a string 
 // console.log(myArray);
+// console.log(newArr); // 0,1,2,3,4,5,6
 // console.log(typeof newArr); // string
 
 //slice , splice
