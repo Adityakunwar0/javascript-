@@ -28,3 +28,8 @@ console.log (`Hello my name is ${name} and my repocount is ${repoCount} `);
 
 const myName = new String("Aditya-tyu-trhyt");
 console.log(myName.split('-')); // convert string into array 
+
+let strObj = new String("Hello");
+console.log(typeof strObj); // Output: "object"
+let str = "Hello, JavaScript!";
+console.log(typeof str); // Output: "string"
