@@ -41,8 +41,8 @@ let anothername = myName;
 anothername = "Chotu";
 
 
-console.log(myName);
-console.log(anothername);
+console.log(myName); // Aditya
+console.log(anothername); // Chotu
 
 let userOne = {
     email: "Aditya@gmail.com",
@@ -52,5 +52,5 @@ let userOne = {
 let userTwo = userOne;
 userTwo.email = "chotu@gmail.com";
 
-console.log(userOne.email);
-console.log(userTwo.email);
+console.log(userOne.email); //  chotu@gmail.com
+console.log(userTwo.email); //  chotu@gmail.com
