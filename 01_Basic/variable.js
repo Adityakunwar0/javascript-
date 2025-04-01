@@ -21,7 +21,7 @@ var accountPassword = "12345";
 accountCity = "Nepal";
 let accountState;
 
-// accountId = 2 // not allowed
+// accountId = 2 // not allowed beacuse of const keyword
 
 
 accountEmail = "ak@ak.com";
