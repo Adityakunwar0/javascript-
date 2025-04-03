@@ -8,7 +8,7 @@
 //     two(); // Aditya
 
 // }
-// //one();
+// //one(); execute nahi hoga
 if(true){
     const username = "Aditya"
     if (username === "Aditya"){
