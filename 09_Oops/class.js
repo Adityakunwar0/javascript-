@@ -34,5 +34,17 @@ function User(username, loginCount, isLoggedIn){
 
 const userOne = new User("aditya", 12, true)
 const userTwo = new User("aman", 11, false)
-console.log(userOne.constructor);
+console.log(userOne.constructor); // [function: User]
 //console.log(userTwo);
+
+// instanceOf
+function Car(make, model, year){
+    this.make = make;
+    this.model = model;
+    this.year = year;
+}
+const auto = new Car("Honda", "Accord", 1998);
+console.log(auto instanceof Car);
+// o/p true
+console.log(auto instanceof Object);
+// o/p true
