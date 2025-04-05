@@ -1,3 +1,4 @@
+// objects literal
 const user = {
     username: "aditya",
     loginCount: 8,
@@ -17,7 +18,7 @@ const user = {
 //console.log(user.getUserDetails());
 // console.log(this);
 
-
+// constructor function => 
 function User(username, loginCount, isLoggedIn){
     this.username = username;
     this.loginCount = loginCount;
