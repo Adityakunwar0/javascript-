@@ -7,7 +7,7 @@ const promiseOne = new Promise(function(resolve, reject){
     }, 1000)
 })
 
-promiseOne.then(function(){
+promiseOne.then(function(){ // resolve ka connection hain .then k saath
     console.log("Promise consumed");
 })
 
