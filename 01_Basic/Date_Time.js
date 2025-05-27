@@ -34,5 +34,5 @@ console.log(newDate.getDay()); // 0 - sunday
 
 newDate.toLocaleString('default', {
     weekday: "long"
-})
+}) // actually day print 
 
