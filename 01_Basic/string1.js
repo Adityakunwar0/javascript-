@@ -24,7 +24,8 @@ console.log (`Hello my name is ${name} and my repocount is ${repoCount} `);
 // const url = "https://Aditya.com/Aditya%2kunwar";
 
 // console.log(url.replace('%2', '-'));  
-// console.log(url.includes('Aditya')); // true
+// console.log(url.includes('Aditya')); // true o/p: [ 'Aditya', 'tyu', 'trhyt' ]
+
 
 const myName = new String("Aditya-tyu-trhyt");
 console.log(myName.split('-')); // convert string into array 
